@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" type="" href="style.css">
+    <link rel="icon" href="Image-Logo.PNG">
+</head>
+<body>
+    
+    <header>
+        <h1>Temperatura</h1>
+    </header>
+
+    <section>
+        <div>
+            <h3>Converter Temperatura de Celsius para Fahrenheit.</h5>
+        </div>
+
+        <div>
+            <p id="put">Celsius:
+                <input type="number" name="txtCel" id="txtCel" placeholder="Ex: 20°C">
+            </p>
+
+            <p id="put">Fahrenheit:
+                <input type="text" name="txtFah" id="txtFah" disabled>
+            </p>
+        </div>
+
+        <div>
+            <input type="button" id="btn" value="CALCULAR" onclick="calcular()">
+            <input type="button" id="btn2" value="Close Site" onclick="Close()">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy Colégio Técnico de Campinas</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
